@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     margin: 0;
@@ -18,17 +18,17 @@ header {
 }
 
 #netflixlogo {
-    margin-top: 9px;
-    margin-left: 55px;
-    width: 165px;
+    margin-top: 23px;
+    margin-left: 10px;
+    width: 89px;
 }
 
 #language {
     color: white;
-    margin-right: 27px;
+    margin-right: 5px;
     margin-top: 26px;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 5px;
+    padding-right: 20px;
     border-radius: 2px;
     height: 36px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -39,7 +39,7 @@ header {
     color: white;
     font-size: 17px;
     margin-top: 27px;
-    margin-right: 55px;
+    margin-right: 5px;
     border-color: rgb(210, 0, 0);
     padding-right: 15px;
     padding-left: 15px;
@@ -54,18 +54,18 @@ main {
 }
 
 main h1 {
-    font-size: 50px;
+    font-size: 45px;
     margin: 0;
 }
 
 main h2 {
     font-family: Roboto, sans-serif;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
 main h3 {
-    margin-top: 30px;
+    margin-top: 25px;
     font-family: Roboto, sans-serif;
 }
 
@@ -78,7 +78,7 @@ main h3 {
 #login {
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: max-content;
     margin: 0 auto;
 }
@@ -87,8 +87,9 @@ main h3 {
     text-align: start;
     background-color:white;
     color: grey;
-    width: 480px;
+    width: 300px;
     height: 60px;
+    margin-bottom: 10px;
 }
 
 #email p {
@@ -103,6 +104,7 @@ main h3 {
     height: 60px;
     font-family: monospace,sans-serif;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #send h2 {
