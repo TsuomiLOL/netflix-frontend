@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url("../images/background-escuro.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#netflixlogo {
+    margin-top: 9px;
+    margin-left: 55px;
+    width: 134px;
+}
+
+#language {
+    color: white;
+    margin-right: 27px;
+    margin-top: 26px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 2px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#signin {
+    background-color: rgb(211, 3, 0);
+    color: white;
+    font-size: 17px;
+    margin-top: 27px;
+    margin-right: 55px;
+    border-color: rgb(210, 0, 0);
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+main {
+    color: white;
+    margin-top: 145px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+main h2 {
+    font-family: Roboto, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+main h3 {
+    margin-top: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+#center {
+    margin: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#login {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#email {
+    background-color:white;
+    color: grey;
+    width: 480px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+#email p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#send {
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-family: monospace,sans-serif;
+    text-align: center;
+}
+
+#send h2 {
+    margin-top: 15px;
+}
